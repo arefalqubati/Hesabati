@@ -1,1 +1,119 @@
-docs/index.html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق مدونة حساباتي - الصفحة الرئيسية</title>
+    <style>
+        :root {
+            --primary-color: #1a56db;
+            --secondary-color: #0f172a;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #334155;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 { margin: 0; font-size: 2.2rem; }
+        header p { font-size: 1.1rem; opacity: 0.9; margin-top: 0.5rem; }
+        nav {
+            background-color: var(--secondary-color);
+            padding: 0.8rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover { text-decoration: underline; }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .feature-box {
+            background: #f1f5f9;
+            padding: 1.2rem;
+            border-radius: 8px;
+            border-right: 4px solid var(--primary-color);
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: var(--secondary-color);
+            color: white;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>تطبيق مدونة حساباتي</h1>
+        <p>حلول محاسبية بسيطة وذكية لإدارة حساباتك بسهولة وأمان</p>
+    </header>
+
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="privacy.html">سياسة الخصوصية</a>
+        <a href="contact.html">تواصل مع المطوّر</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>عن التطبيق</h2>
+            <p>تطبيق <strong>مدونة حساباتي</strong> هو أداة متكاملة مخصصة لمساعدتك في تنظيم وإدارة الديون والحسابات المالية بكل يسر وسلاسة. يتيح لك التطبيق تسجيل المعاملات وتتبع السجلات وإصدار التقارير بسرعة ودقة.</p>
+        </div>
+
+        <div class="card">
+            <h2>مميزات التطبيق</h2>
+            <div class="features">
+                <div class="feature-box">
+                    <h3>إدارة سهلة</h3>
+                    <p>واجهات بسيطة واحترافية تُسهل تسجيل العمليات المالية دون تعقيد.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>أمان البيانات</h3>
+                    <p>الحفاظ على بياناتك وحساباتك بأعلى مستويات الأمان والخصوصية.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>تقارير دقيقة</h3>
+                    <p>استخراج ملخصات وتقارير مالية وتفاصيل الحسابات بضغطة زر.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; جميع الحقوق محفوظة لتطبيق مدونة حساباتي - Developed by Aref Al-Qubati</p>
+    </footer>
+
+</body>
+</html>
