@@ -1,1 +1,111 @@
-contact.html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل مع المطوّر - مدونة حساباتي</title>
+    <style>
+        :root {
+            --primary-color: #1a56db;
+            --secondary-color: #0f172a;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #334155;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: var(--secondary-color);
+            padding: 0.8rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 700px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info {
+            margin-top: 1.5rem;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            background: #f1f5f9;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .contact-item strong {
+            width: 120px;
+            color: var(--primary-color);
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: var(--secondary-color);
+            color: white;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>تواصل مع المطوّر</h1>
+        <p>نحن هنا لمساعدتك والإجابة على كافة استفساراتك</p>
+    </header>
+
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="privacy.html">سياسة الخصوصية</a>
+        <a href="contact.html">تواصل مع المطوّر</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>معلومات التواصل</h2>
+            <p>إذا كان لديك أي اقتراح، استفسار، أو واجهتك أي مشكلة أثناء استخدام تطبيق مدونة حساباتي، يسعدنا تواصلك المباشر مع المطور:</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>المطوّر:</strong>
+                    <span>عارف القباتي (Aref Al-Qubati)</span>
+                </div>
+                <div class="contact-item">
+                    <strong>المستودع:</strong>
+                    <a href="https://github.com/arefalqubati/Hesabati" target="_blank">github.com/arefalqubati/Hesabati</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; جميع الحقوق محفوظة لتطبيق مدونة حساباتي - Developed by Aref Al-Qubati</p>
+    </footer>
+
+</body>
+</html>
